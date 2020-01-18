@@ -1,0 +1,186 @@
+/* Media Query */
+@media (max-width: 1200px) {
+	#skills {
+		height: 40rem;
+	}
+	.header__profile-text {
+		margin-top: -2.2rem;
+	}
+}
+@media (max-width: 1025px) {
+	.header__profile-photo {
+		height: 12rem;
+		width: 12rem;
+		margin-top: 6rem;
+	}
+	.header__profile-text h1 {
+		font-size: 80px;
+	}
+	.header__profile-text p {
+		font-size: 22px;
+	}
+	#skills {
+		height: 50rem;
+	}
+	.row {
+		justify-content: space-evenly;
+	}
+	.card {
+		height: auto;
+		border-radius: 3px;
+		background-color: #fff;
+		box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+	}
+	.card__side {
+		height: auto;
+		transition: all .8s ease;
+		position: relative;
+		box-shadow: none;
+	}
+	.card__side-back {
+		transform: rotateY(0);
+		-moz-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+	}
+	.card:hover .card__side-front {
+		transform: rotateY(0deg);
+	}
+	.card:hover .card__side-back {
+		transform: rotateY(0deg);
+	}
+	.card__cta {
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: translate(0);
+		width: 100%;
+		padding: 7rem 4rem 4rem 4rem;
+	}
+	.card__price-box {
+		margin-bottom: 3rem;
+	}
+	.card__price-value {
+		font-size: 4rem;
+	}
+	.popup:target {
+		opacity: 0;
+		visibility: hidden;
+	}
+	.card {
+		margin: 20px;
+	}
+	.card-btn {
+		padding-right: 80px;
+	}
+	.footer-info {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 924px) {
+	.header__profile-photo {
+		margin-top: 4rem;
+	}
+	#skills {
+		height: 45rem;
+	}
+	.header__profile-text {
+		margin-top: -60px;
+	}
+}
+@media (max-width: 900px) {
+	.header__profile-photo {
+		height: 10rem;
+		width: 10rem;
+	}
+	.header__profile-text h1 {
+		font-size: 3.5rem;
+		border-bottom: 3px solid white;
+		padding: 0 .3rem;
+		letter-spacing: 1.5px;
+	}
+	.header__profile-text p {
+		font-size: 1rem;
+		padding-top: .7rem;
+		letter-spacing: .05rem;
+	}
+	.section-heading > span {
+		font-size: 2rem;
+		color: #b31217;
+		display: inline-block;
+		padding-top: 1rem;
+		margin-right: 0.5rem;
+		letter-spacing: .1rem;
+		transition: all .3s;
+		margin-bottom: 1rem;
+	}
+	.skills-display {
+		justify-content: space-around;
+	}
+}
+@media (max-width: 640px) {
+	.header__profile-photo {
+		margin-top: 2rem;
+	}
+	#skills {
+		height: 70rem;
+	}
+	.header__profile-text h1 {
+		font-size: 2.5rem;
+	}
+	.header__profile-text p {
+		font-size: .8rem;
+	}
+}
+@media (max-width: 450px) {
+	.header__profile-photo {
+		margin-top: .5rem;
+	}
+	.header__profile-photo {
+		height: 7.5rem;
+		width: 7.5rem;
+	}
+	.header__profile-text {
+		margin-top: -40px;
+	}
+	.header__profile-text h1 {
+		font-size: 1.9rem;
+	}
+	.header__profile-text p {
+		font-size: .7rem;
+	}
+}
+/* Iphone 6/7/8 440px  Iphone X-> Responsive design */
+@media (max-width: 440px) {
+	.header__profile-text h1 {
+		padding-top: 30px;
+	}
+	#experience {
+		padding-bottom: 10px;
+	}
+	#skills {
+		margin-bottom: -80px;
+	}
+	.section-heading span {
+		font-size: 1.5rem;
+	}
+	.timeline {
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.timeline-box:nth-child(2n) {
+		left: 5%;
+		width: 100%;
+	}
+
+	.timeline-box:nth-child(2n + 1) {
+		right: 5%;
+		width: 100%;
+	}
+	#timeline-divider {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
