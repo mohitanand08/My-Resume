@@ -318,15 +318,15 @@ body {
 	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .card__picture-1 {
-	background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(/Img/python-logo.png);
+	background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../Img/python-logo.png);
 }
 .card__picture-2 {
 	background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1), rgba(255, 119, 48, 1)),
-		url(/Img/frontend.png);
+		url(../Img/frontend.png);
 }
 .card__picture-3 {
 	background-image: linear-gradient(to right bottom, rgb(126, 213, 111, 1), rgb(40, 180, 133, 1)),
-		url(/Img/backend.jpg);
+		url(../Img/backend.jpg);
 }
 .card__heading {
 	font-size: 1.8rem;
