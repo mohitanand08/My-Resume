@@ -184,6 +184,7 @@
 	.footer-info {
 		opacity: 0;
 		visibility: hidden;
+		display: none;
 	}
 }
 @media (max-width: 450px) {
@@ -211,14 +212,11 @@
 		opacity: 0;
 		visibility: hidden;
 	}
-	.navigation__button {
-		top: 1.5rem;
-		right: 1.5rem;
-	}
-
-	.navigation__background {
-		top: 1.5rem;
-		right: 2rem;
+	#timeline-divider,
+	.td-1 {
+		opacity: 0;
+		visibility: hidden;
+		display: none;
 	}
 }
 /* Iphone 6/7/8 440px  Iphone X-> Responsive design */
@@ -249,10 +247,7 @@
 		right: 5%;
 		width: 100%;
 	}
-	#timeline-divider {
-		opacity: 0;
-		visibility: hidden;
-	}
+
 	.footer {
 		margin-bottom: 0;
 	}
