@@ -71,10 +71,6 @@
 	.card__price-value {
 		font-size: 4rem;
 	}
-	.popup:target {
-		opacity: 0;
-		visibility: hidden;
-	}
 	.card {
 		margin: 20px;
 	}
@@ -84,6 +80,9 @@
 	.footer-info {
 		opacity: 0;
 		visibility: hidden;
+	}
+	.card__details {
+		display: none;
 	}
 }
 
@@ -146,12 +145,27 @@
 		font-size: 1.5rem;
 		border-bottom: 1px solid white;
 	}
+	.popup__content {
+		width: 65%;
+		top: 50%;
+		left: 37%;
+	}
 	.header__profile-text p {
 		font-size: .6rem;
 	}
+	.popup__right h2 {
+		font-size: 1.5rem;
+	}
+	.popup__right p {
+		font-size: 0.75rem;
+	}
+	.popup__right__btn {
+		font-size: 0.8rem;
+	}
 }
 @media screen and (max-width: 900px) {
-	#timeline-divider {
+	#timeline-divider,
+	.td-1 {
 		left: 0%;
 	}
 	.timeline-box {
@@ -166,6 +180,10 @@
 	}
 	.timeline-box:nth-child(2n)::after {
 		left: -15.5%;
+	}
+	.footer-info {
+		opacity: 0;
+		visibility: hidden;
 	}
 }
 @media (max-width: 450px) {
